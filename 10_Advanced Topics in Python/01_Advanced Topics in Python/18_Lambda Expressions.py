@@ -14,7 +14,8 @@ Finally, print your message to the console.
 
 
 garbled = "IXXX aXXmX aXXXnXoXXXXXtXhXeXXXXrX sXXXXeXcXXXrXeXt mXXeXsXXXsXaXXXXXXgXeX!XX"
-#message=filter(lambda x: x!="X",garbled)
-#print message
+
+message=filter(lambda x: x!="X",garbled)
+print message
 # ew.:
-print filter(lambda x: x!="X",garbled)
+#print filter(lambda x: x!="X",garbled)
