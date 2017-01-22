@@ -11,4 +11,5 @@ Remove the pass statement in your class definition, then go ahead and define an 
 
 
 class Animal(object):
-    pass
+    def __init__(self):
+        pass
