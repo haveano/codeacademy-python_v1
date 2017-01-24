@@ -8,5 +8,6 @@ Instructions
 Define a new class named "Car". For now, since we have to put something inside the class, use the pass keyword.
 """
 
-
-#test - do usunięcia
+class Car(object):
+    #__init__():
+        pass
